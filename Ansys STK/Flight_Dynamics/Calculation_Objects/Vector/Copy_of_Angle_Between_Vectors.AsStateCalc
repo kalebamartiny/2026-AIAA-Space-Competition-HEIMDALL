@@ -1,0 +1,89 @@
+<?xml version = "1.0" standalone = "yes"?>
+<Component>
+    <Type>AsStateCalc</Type>
+    <SpecificType>CAgAsStateCalcAngle</SpecificType>
+    <Category>Vector</Category>
+    <Data>
+        <VAR name = "Copy_of_Angle_Between_Vectors">
+            <SCOPE Class = "AsStateCalc">
+                <VAR name = "Version">
+                    <STRING>&quot;1.0.0 a&quot;</STRING>
+                </VAR>
+                <VAR name = "AppVersion">
+                    <INT>1300</INT>
+                </VAR>
+                <VAR name = "Description">
+                    <STRING>&quot;Angle between two specified vectors&quot;</STRING>
+                </VAR>
+                <VAR name = "Type">
+                    <STRING>&quot;CAgAsStateCalcAngle&quot;</STRING>
+                </VAR>
+                <VAR name = "UserComment">
+                    <STRING>&quot;Angle between two specified vectors&quot;</STRING>
+                </VAR>
+                <VAR name = "ReadOnly">
+                    <BOOL>false</BOOL>
+                </VAR>
+                <VAR name = "Clonable">
+                    <BOOL>true</BOOL>
+                </VAR>
+                <VAR name = "Category">
+                    <STRING>&quot;Vector&quot;</STRING>
+                </VAR>
+                <VAR name = "IdentifierInformation">
+                    <SCOPE>
+                        <VAR name = "Identifier">
+                            <STRING>&quot;{404D5165-110E-4F3F-B243-21892FF5C69A}&quot;</STRING>
+                        </VAR>
+                        <VAR name = "Version">
+                            <STRING>&quot;1&quot;</STRING>
+                        </VAR>
+                        <VAR name = "SdfInformation">
+                            <SCOPE>
+                                <VAR name = "Version">
+                                    <STRING>&quot;0.0&quot;</STRING>
+                                </VAR>
+                                <VAR name = "Url">
+                                    <STRING>&quot;&quot;</STRING>
+                                </VAR>
+                            </SCOPE>
+                        </VAR>
+                        <VAR name = "SourceIdentifierInformation">
+                            <SCOPE>
+                                <VAR name = "Identifier">
+                                    <STRING>&quot;{49C116C0-1DCE-4858-B532-6F253EE90A8F}&quot;</STRING>
+                                </VAR>
+                                <VAR name = "Version">
+                                    <STRING>&quot;1&quot;</STRING>
+                                </VAR>
+                                <VAR name = "SdfInformation">
+                                    <SCOPE>
+                                        <VAR name = "Version">
+                                            <STRING>&quot;0.0&quot;</STRING>
+                                        </VAR>
+                                        <VAR name = "Url">
+                                            <STRING>&quot;&quot;</STRING>
+                                        </VAR>
+                                    </SCOPE>
+                                </VAR>
+                            </SCOPE>
+                        </VAR>
+                    </SCOPE>
+                </VAR>
+                <VAR name = "ShooterControls">
+                    <LIST />
+                </VAR>
+                <VAR name = "Vector1">
+                    <LINKTOOBJ>
+                        <STRING>&quot;CentralBody/Earth Velocity&quot;</STRING>
+                    </LINKTOOBJ>
+                </VAR>
+                <VAR name = "Vector2">
+                    <LINKTOOBJ>
+                        <STRING>&quot;Satellite/Satellite1 Position&quot;</STRING>
+                    </LINKTOOBJ>
+                </VAR>
+            </SCOPE>
+        </VAR>
+    </Data>
+</Component>
