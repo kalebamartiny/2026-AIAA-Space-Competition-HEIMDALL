@@ -1,1 +1,1 @@
-MATLAB scripts and Ansys STK files created by the Illinois Institute of Technology Scarlet Cows for HEIMDALL in response to the AIAA 2026 Heliophysics Science Observer & Communication Platform request for proposal.
+MATLAB scripts and Ansys STK files created by the Illinois Institute of Technology Scarlet Cows for Project HEIMDALL in response to the AIAA 2026 Heliophysics Science Observer & Communication Platform request for proposal.
